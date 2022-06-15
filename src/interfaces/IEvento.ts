@@ -1,7 +1,7 @@
 export interface IEvento {
-  id?: number
+  id: number
   descricao: string
-  completo: boolean
   inicio: Date
   fim: Date
+  completo: boolean
 }
